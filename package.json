@@ -1,19 +1,23 @@
 {
-  "name": "git_test",
+  "name": "fullstackjonathan",
   "version": "1.0.0",
-  "description": "This is a test directory to learn node.js",
+  "description": "This is a personal testing project that I can do any shit I wanted.",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JonathanChiii/fullstack.git"
+    "url": "git+https://github.com/JonathanChiii/aws.git"
   },
-  "author": "Jonathan Chi",
+  "keywords": [
+    "JavaScript",
+    "Node.js"
+  ],
+  "author": "Jonathan and Coursera.com",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/JonathanChiii/fullstack/issues"
+    "url": "https://github.com/JonathanChiii/aws/issues"
   },
-  "homepage": "https://github.com/JonathanChiii/fullstack#readme"
+  "homepage": "https://github.com/JonathanChiii/aws#readme"
 }
