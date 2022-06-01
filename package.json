@@ -19,5 +19,11 @@
   "bugs": {
     "url": "https://github.com/JonathanChiii/aws/issues"
   },
-  "homepage": "https://github.com/JonathanChiii/aws#readme"
+  "homepage": "https://github.com/JonathanChiii/aws#readme",
+  "dependencies": {
+    "boostrap": "^2.0.0",
+    "bootstrap": "^5.0.2",
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.1"
+  }
 }
