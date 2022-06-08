@@ -1,0 +1,84 @@
+/* CSS selectors:
+    .a selects whose class="a"
+    a selects all <a> elements
+    #a selects whose id="a"
+    p.center selects <p> elements with class="center"
+    * universal selector select all elements
+    
+*/
+
+.row-header {
+    margin: 0px auto;
+    padding: 0px auto;
+}
+/* 
+paddings:
+      When one value is specified, all four sides.
+    When two values are specified, T/B, L/R.
+  When three values are specified, T, L/R, B.
+   When four values are specified, T, R, B, L (clockwise).
+
+values:
+<length>
+    The size of the padding as a fixed value.
+<percentage>
+    The size of the padding as a percentage, relative to the 
+    inline size (width in a horizontal language, defined by 
+    writing-mode) of the containing block.
+*/
+.row-content{
+    margin: 0px auto;
+    padding: 50px 0px 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 400px;
+}
+
+.footer{
+    background-color: #D1C4E9;
+    margin: 0px auto;
+    padding: 20px 0px 20px 0px;
+}
+
+.jumbotron{
+    padding: 70px 30px 70px 30px;
+    margin: 0px auto;
+    background: #9575CD;
+    color: floralwhite;
+}
+
+.address{
+    font-size: 80%;
+    margin: 0px;
+    color: #0F0F0F;
+}
+
+body {
+    padding: 56px 0px 0px 0px;
+    /*the smaller z-index, the backward the element is */
+    z-index: 0;
+}
+
+.navbar-dark{
+    /* color is referring to the text color in that element.
+        background-color refers to the background color
+        background is shorthand to combine many background tags into one line.
+        background: #ffffff url("img_tree.png") no-repeat right top;
+        Combines color, image and background image properties in the one line instead of typing our each style individually.
+    */
+    background-color: #512da8;
+}
+
+.card{
+    padding: 10px;
+}
+
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+
+h2{
+    padding: 20px 0px 0px;
+}
