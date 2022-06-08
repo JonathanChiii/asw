@@ -24,7 +24,6 @@
     <nav class="navbar navbar-dark navbar-expand-md fixed-top">
         <!-- whatever is enclosed inside there, will be restricted to the same width as the rest of my Web page-->
         <div class="container">
-            
             <!-- There are three types of buttons:
                     submit — Submits the current form data. (This is default.)
                     reset — Resets data in the current form.
@@ -125,7 +124,58 @@
         </div>
     </header>
 
+
     <div class="container">
+        <!-- demostrating the use of carousel-->
+        <div class="row row-content">
+            <div class="col">
+                <div id="mycarousel" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <!-- d-block: this is a flex class that allows our image to be properly positioned-->
+                            <img class="d-block img-fluid" src="img/uthappizza.png" alt="uthappizza">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h2>Uthappizza <span class="badge badge-danger">HOT</span> <span class="badge badge-pill badge-secondary">$4.99</span></h2>
+                            <!-- Hidden only on sm -->
+                                <p class="d-none d-sm-block">A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <!-- d-block: this is a flex class that allows our image to be properly positioned-->
+                            <img class="d-block img-fluid" src="img/alberto.png" alt="alberto">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h2>Alberto Somayya <span class="badge badge-danger">HOT</span> <span class="badge badge-pill badge-secondary">$4.99</span></h2>
+                            <!-- Hidden only on sm -->
+                                <p class="d-none d-sm-block">Award winning thee-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. He says, Put together the cuisines from the two craziest cultures, and you get a winning hit! Amma Mia!</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <!-- d-block: this is a flex class that allows our image to be properly positioned-->
+                            <img class="d-block img-fluid" src="img/buffet.png" alt="buffet">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h2>Peter Pan <span class="badge badge-danger">NEW</span> <span class="badge badge-pill badge-secondary">$4.99</span></h2>
+                            <!-- Hidden only on sm -->
+                                <p class="d-none d-sm-block">Our CEO, Peter, credits his hardworking East Asian immigrant parents who undertook the arduous journey to the shores of America with the intention of giving their children the best future. His mother's wizardy in the kitchen whipping up the tastiest dishes with whatever is available inexpensively at the supermarket, was his first inspiration to create the fusion cuisines for which The Frying Pan became well known. He brings his zeal for fusion cuisines to this restaurant, pioneering cross-cultural culinary connections.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <ol class="carousel-indicators">
+                        <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#mycarousel" data-slide-to="1"></li>
+                        <li data-target="#mycarousel" data-slide-to="2"></li>
+                    </ol>
+                    <a class="carousel-control-prev" href="#mycarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#mycarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
         <div class="row row-content align-items-center">
             <div class="col-12 col-sm-4 order-sm-last col-md-3">
                 <h3>Our Lipsmacking Culinary Creations</h3>
